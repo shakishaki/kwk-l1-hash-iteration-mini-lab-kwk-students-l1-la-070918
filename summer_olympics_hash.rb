@@ -36,11 +36,11 @@ def iterate_through_hash
   :sydney => 2000,
   :athens => 2004,
   :beijing => 2008,
-  :london => 2012
+  :london => 2012,
+  :atlanta => 1996
 }
 
-summer_olympics[:atlanta] = 1996
-  puts summer_olympics
+
 
 
   summer_olympics.each do |place,years|
